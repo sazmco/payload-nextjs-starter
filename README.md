@@ -1,11 +1,22 @@
 # Payload CMS + Next.js Starter
 
-A production-ready **Payload CMS + Next.js starter template** built for modern full-stack applications.
+A production-ready **Payload CMS + Next.js starter template** with **PostgreSQL, Tailwind CSS, and TypeScript**.
 
-Includes **PostgreSQL, Tailwind CSS, and TypeScript**, with a clean architecture designed for scalable platforms.
+This repository provides a clean **full-stack architecture** for building modern web platforms using **Payload CMS as a headless CMS and Next.js as the frontend framework**.
 
 Maintained by **SazM**
 🌐 https://sazm.in
+
+---
+
+# Keywords
+
+Payload CMS
+Next.js CMS starter
+Next.js headless CMS template
+Payload CMS starter template
+Next.js CMS boilerplate
+Payload CMS + Next.js full-stack starter
 
 ---
 
