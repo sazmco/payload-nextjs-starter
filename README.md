@@ -1,8 +1,8 @@
-# Payload CMS + Next.js Starter
+# Next.js SEO Starter
 
-A production-ready **Payload CMS + Next.js starter template** with **PostgreSQL, Tailwind CSS, and TypeScript**.
+A production-ready **Next.js SEO starter template** with built-in **technical SEO features** including sitemap generation, robots.txt, metadata configuration, structured data (schema), and performance best practices.
 
-This repository provides a clean **full-stack architecture** for building modern web platforms using **Payload CMS as a headless CMS and Next.js as the frontend framework**.
+Designed for building **high-performance, search-engine-optimized websites** using modern Next.js architecture.
 
 Maintained by **SazM**
 🌐 https://sazm.in
@@ -11,27 +11,29 @@ Maintained by **SazM**
 
 # Keywords
 
-Payload CMS
-Next.js CMS starter
-Next.js headless CMS template
-Payload CMS starter template
-Next.js CMS boilerplate
-Payload CMS + Next.js full-stack starter
+Next.js SEO starter
+Next.js SEO template
+Next.js technical SEO starter
+Next.js sitemap robots metadata template
+SEO optimized Next.js boilerplate
+Next.js SEO best practices starter
 
 ---
 
 # Features
 
-Built for modern **headless CMS platforms and full-stack applications**.
+Built with **technical SEO best practices**.
 
-• Payload CMS admin panel
-• Next.js App Router architecture
-• PostgreSQL database integration
-• TypeScript support
-• Tailwind CSS styling
-• API-first architecture
+• Next.js App Router
+• Metadata API support
+• automatic sitemap generation
+• robots.txt configuration
+• canonical URL support
+• OpenGraph metadata
+• Twitter card metadata
+• structured data (JSON-LD schema)
+• performance optimized architecture
 • scalable project structure
-• production-ready full-stack foundation
 
 ---
 
@@ -41,33 +43,29 @@ Built for modern **headless CMS platforms and full-stack applications**.
 
 * Next.js
 * React
-* Tailwind CSS
 * TypeScript
+* Tailwind CSS
 
-### Backend
+### SEO
 
-* Payload CMS
-* Node.js
-* PostgreSQL
-
-### Infrastructure
-
-* Vercel
-* Cloud storage support
-* API-driven architecture
+* Next.js Metadata API
+* dynamic sitemap generation
+* robots.txt configuration
+* OpenGraph metadata
+* Twitter card metadata
+* structured data support
 
 ---
 
 # Project Structure
 
-```
+```text
 src
 ├── app
 ├── components
-├── collections
+├── seo
 ├── utilities
-├── payload.config.ts
-└── types
+└── lib
 ```
 
 ---
@@ -76,19 +74,19 @@ src
 
 Clone the repository:
 
-```
-git clone https://github.com/sazmco/payload-nextjs-starter
+```bash
+git clone https://github.com/sazmco/nextjs-seo-starter
 ```
 
 Install dependencies:
 
-```
+```bash
 pnpm install
 ```
 
 Run development server:
 
-```
+```bash
 pnpm dev
 ```
 
@@ -100,15 +98,48 @@ http://localhost:3000
 
 ---
 
+# Included SEO Features
+
+### Metadata
+
+Dynamic metadata generation using the **Next.js Metadata API**.
+
+### Sitemap
+
+Automatic sitemap generation for search engine indexing.
+
+### robots.txt
+
+Configurable robots rules for search engines.
+
+### Structured Data
+
+Support for **JSON-LD schema markup**.
+
+### Social Metadata
+
+Built-in support for:
+
+* OpenGraph metadata
+* Twitter card metadata
+
+### Performance
+
+Architecture optimized for:
+
+* fast page loads
+* efficient rendering
+* improved Core Web Vitals
+
+---
+
 # Use This Template
 
-You can create a new project using this starter:
+You can start a new project instantly using this starter:
 
 ```
 Use this template → Create a new repository
 ```
-
-This provides a fast starting point for building **Payload CMS + Next.js applications**.
 
 ---
 
@@ -116,18 +147,18 @@ This provides a fast starting point for building **Payload CMS + Next.js applica
 
 This starter works well for:
 
-* Headless CMS platforms
-* SaaS products
-* developer platforms
-* content websites
-* internal tools
-* marketing platforms
+* company websites
+* SaaS platforms
+* marketing sites
+* blogs
+* documentation sites
+* content platforms
 
 ---
 
 # About SazM
 
-SazM builds scalable web platforms and automation systems.
+SazM builds scalable and SEO-optimized web platforms.
 
 Services include:
 
@@ -136,8 +167,8 @@ Services include:
 * Headless CMS Development
 * AI Integration
 * Automation Workflows
-* API Integrations
 * Performance Optimization
+* Technical SEO implementation
 
 🌐 https://sazm.in
 
